@@ -11,20 +11,30 @@ The plugin is not necessary for building Pepper Android apps.
 It provided the following features for convenience:
 
 - **Interface to connect to Pepper**
+  
   When the plugin was first developed, the default ADB in Android Studio was not able to connect to Pepper [over TCP/IP], so a compatible version of ADB was bundled into the plugin, and a button was added to the toolbar to access it.
   This is no longer necessary, as newer versions of Android Studio are compatible.
+
   This guide will show how to connect manually with ADB.
 - **“Robotification” of existing Android Studio projects**
+
   The plugin automatically adds required details to the gradle build files to use QiSDK.
+
   This guide will show how to do this manually.
 - **Animation browser and library**
+
   Many robotic animations were bundled into the plugin (waving hello, etc), with a GUI element to browse them and automatically add them to the project.
+
   This guide will show where to access robotic animations, and add them to your project.
 - **QiChat syntax highlighting**
+
   The plugin provides syntax highlighting and code completion for QiChat top files.
+
   No alternative solution for this functionality is provided by this guide.
 - **Pepper Emulator**
+
   The plugin provides an Android Virtual Device with an emulated Pepper robot.
+
   No alternative solution for this functionality is available.
 
 # Connecting to Pepper
